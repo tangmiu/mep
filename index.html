@@ -11,7 +11,7 @@
 <div class="panel"><h2 id="selectedTitle">เลือกวันที่ในปฏิทิน</h2><div class="choices"><button data-status="available">✓ ว่าง</button><button data-status="unavailable">✕ ไม่ว่าง</button><button data-status="maybe">? ยังไม่แน่ใจ</button><button data-status="clear">ลบสถานะ</button></div><div id="selectedInfo" class="muted">ยังไม่ได้เลือกวันที่</div></div></section>
 <section id="summaryView" class="hidden"><div class="panel"><h2>วันที่มีคนว่างมากที่สุด</h2><div class="controls"><select id="sumYear"></select><select id="sumMonth"></select></div><div id="bestDate" class="notice hidden" style="margin-top:14px"></div><div id="summaryList" class="list"></div></div></section>
 <section id="eventsView" class="hidden"><div class="panel"><h2>วันปิดเทอมและวันพิเศษ</h2><form id="eventForm" class="form"><input id="eventTitle" placeholder="ชื่อ เช่น ปิดเทอม" required><input id="eventStart" type="date" required><input id="eventEnd" type="date" required><select id="eventType"><option value="school_break">ปิดเทอม</option><option value="holiday">วันหยุด</option><option value="other">อื่น ๆ</option></select><button class="btn">เพิ่มวัน</button></form><div id="eventsList" class="list"></div></div></section>
-<p class="muted" style="text-align:center;font-size:12px">MEP 4/2 · Reunion planner</p></main>
+<p class="muted" style="text-align:center;font-size:12px">Dev By Tang Miu</p></main>
 <script>
 const db=window.supabase.createClient("https://sxpgnwzjidqxqumjdofo.supabase.co","sb_publishable_J4Zixy5-Wwt7kkKt11UtyQ_bEoI_Jpq");
 const months=["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"];
